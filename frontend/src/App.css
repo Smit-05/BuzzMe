@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    background: #2980B9;
+    /* background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(136, 136, 136, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
